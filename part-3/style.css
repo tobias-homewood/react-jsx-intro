@@ -1,0 +1,31 @@
+.person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.age {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
